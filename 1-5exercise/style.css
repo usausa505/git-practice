@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*aは入れなくても可*/
+a {
+  text-decoration: none;
+}
+
+/*widthは100％だった*/
+header{
+  width: 90%;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*ここは回答では記述なし*/
+/*header .heading{*/
+/*  font-size: 32px;*/
+/*}*/
+
+/*色は#848282だった*/
+.nav-list{
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+
+}
+
+.nav-list-item{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/*回答では記述なし*/
+/*.main-visual{*/
+/*  width: 100%;*/
+/*  height: 300px;*/
+/*}*/
+
+/*回答では記述なし*/
+/*.main-visual-content{*/
+/*  width: 350px;*/
+/*  height: 300px;*/
+/*}*/
+
+/*回答ではjustify-content: center;の代わりに*/
+/*flex-wrap: wrap;を使用*/
+.main{
+width: 800px;
+display: flex;
+justify-content: center;
+margin: 50px auto;
+}
+
+/*flex-wrap: wrap使用に伴い、回答では子要素*/
+/*を使わずbox1～12で済ませていた。*/
+.box1{
+  width: 200px;
+  height: 600px;
+}
+
+.box1-1{
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.box1-2{
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.box1-3{
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.box2{
+  width: 200px;
+  height: 600px;
+}
+
+.box2-1{
+  width: 200px;
+  height: 200px;
+  background-color: #cdffd3;
+}
+
+.box2-2{
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.box2-3{
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.box3{
+  width: 200px;
+  height: 600px;
+}
+
+.box3-1{
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.box3-2{
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.box3-3{
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff
+}
+
+.box4{
+  width: 200px;
+  height: 600px;
+}
+
+.box4-1{
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.box4-2{
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.box4-3{
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+/*回答では記述なし*/
+/*.sidebar{*/
+/*  width: 240px;*/
+/*  height: 1400px;*/
+/*}*/
+
+footer{
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+.footer-text{
+  color: #fff;
+}
